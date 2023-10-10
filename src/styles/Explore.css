@@ -1,0 +1,101 @@
+.E-Container{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+.E-Head{
+    line-height: 20px;
+    margin-bottom: 80px;
+}
+.blog-outer{
+    padding-bottom: 50px;
+}
+.blog-outer h1{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.cards-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .heading,.sub-heading{
+    text-align: center;
+  }
+  
+  .card {
+    min-height: 150px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .left {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+  
+  .row-one {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .row-one-left {
+    width: 250px;
+    background: url("https://ventifashion.com/wp-content/uploads/2021/01/How-to-Style-a-Clothing-Rack-7.jpg") no-repeat;
+    background-size: cover;
+  }
+  
+  .title {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+  }
+  .explore-button{
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+  }
+  
+  .row-one-right {
+    width: 350px;
+    background: url("https://img-c.udemycdn.com/course/480x270/2284600_278b_7.jpg") no-repeat;
+    background-size: cover;
+  }
+  
+  .row-two {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .row-two-left {
+    width: 350px;
+    background: url("https://www.shutterstock.com/image-photo/flat-lay-composition-fashionable-womans-260nw-2017326053.jpg") no-repeat;
+    background-size: cover;
+  }
+  
+  .row-two-right {
+    width: 250px;
+    background: url("https://www.glossy.co/wp-content/uploads/sites/4/2021/04/AdobeStock_386316827.jpeg") no-repeat;
+    background-size: cover;
+  }
+  
+  .full {
+    min-width: 200px;
+    min-height: 310px;
+    background: url("https://asset1.modelmanagement.com/mm-eyJ0Ijp7InIiOnsibCI6/IjE2MDAiLCJoIjoiNTEy/In19LCJpZCI6ImkxMTk0/NjYxMCIsImYiOiJqcGci/fQ;;.jpg") no-repeat;
+    background-size: cover;
+  }
+  
+  
+ 

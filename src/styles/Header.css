@@ -1,0 +1,43 @@
+.H-Container{
+    display:flex;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    
+}
+.Logo{
+    flex: 1;
+}
+.NavContainer{
+    background-color: rgba(103, 11, 11, 0.985);
+    flex: 2;
+    margin-right: 150px;
+    margin-left: 150px;
+    align-items: center;
+    border-radius: 17px;
+    margin-bottom: 20px;
+    padding: 12px;
+    flex-wrap: wrap;
+}
+.Nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+}
+.Nav a{
+    color: antiquewhite;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Nav button{
+    background-color: orangered;
+    color: antiquewhite;
+    border-radius: 5px;
+    width: 80px;
+    height: 28px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}

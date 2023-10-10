@@ -1,0 +1,24 @@
+.M-Container{
+    padding-right: 100px;
+    padding-left: 100px;
+    flex-wrap: wrap;
+    
+}
+.M-Content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.M-Left{
+    flex: 1;
+    text-align:left;
+}
+.M-Middle{
+    flex: 2;  
+}
+.M-Right{
+    flex: 1;
+    text-align: right;
+    line-height: 0.2px;
+}

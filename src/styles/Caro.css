@@ -1,0 +1,51 @@
+.home-section{
+    position: relative;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+.slider{
+    font-family: "Roboto", sans-serif;
+    max-height: 80vh;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+}
+.slider_slider{
+    height:80vh;
+    min-width: 100vw;
+    width: 100%;
+    scroll-snap-align: start;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.slider_slider .slide-detail{
+    margin-top: 250px;
+    justify-content: center;
+    text-align: center;
+    line-height: 3px;
+}
+.slide-detail h1{
+    font-size: 100px;
+    color: white;
+}
+.slide-detail h2{
+    color: white;
+    font-size: 30px;
+    font-weight: none;
+}
+
+.slide1{
+    background-image: url('https://the-frugality.com/wp-content/uploads/2018/01/The-Frugality_Maternity-Clothes-7.jpg');
+}
+.slide2{
+    background-image: url('https://cdn.mominformed.com/wp-content/uploads/2020/07/clothes.jpg');
+}
+.slide3{
+    background-image: url('https://le-cdn.hibuwebsites.com/546287e22ace4ff3b8f5934305130caa/dms3rep/multi/opt/homehero-1920w.png');
+}
+
+
+

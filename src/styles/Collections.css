@@ -1,0 +1,103 @@
+.C-Container{
+    display:flex;
+    flex-wrap:wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.C-Head{
+    line-height: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.Collection-Container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    margin-top: 80px;
+}
+
+.Collection-Sub{
+    flex: 1;
+    display: flex;  
+    flex-wrap: wrap;
+
+}
+.Collection-Sub1{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.C-Head p{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.Collection-Sub1 img{
+    height: 400px;
+    width: 400px;
+} 
+.LeftP{
+    flex:0.4;
+    height: 300px;
+    width: 100px;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.LeftP img{
+    height: 300px;
+    width: 150px;
+}
+.RightP{
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.RightUp{
+    flex: 0.6;
+    margin-bottom: 5px;
+ 
+}
+.RightUp img{
+    height: 220px;
+    width: 220px;
+} 
+ .RightDown{
+    flex: 0.4;
+    margin-top: 5px;
+    
+} 
+ .RightDown img{
+    height:140px;
+   width:   220px;
+}
+.RightUp2{
+    flex: 0.6;
+    margin-top: 8px;
+    
+} 
+ .RightUp2 img{
+    height: 220px;
+    width: 220px;
+}
+.RightDown2{
+    flex: 0.4;
+    margin-bottom: 5px;
+    
+} 
+ .RightDown2 img{
+   height: 140px;
+   width: 220px;
+}
+
+.Collection-Container{
+     display: flex;
+     flex-wrap: wrap;
+}

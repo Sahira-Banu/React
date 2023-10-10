@@ -1,0 +1,57 @@
+.T-Container{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.T-Head{
+    line-height: 2px
+}
+.T-Head p{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.T-Content{
+    margin: 10px;
+    display: flex;
+   
+}
+.T-Sub-Container{
+    padding: 10px;
+    display: flex;
+    margin: 20px;
+    background-color: #FADADE;
+    flex-direction: column;
+   
+}
+.T-img1{
+    background-image: url(../assets/top-event.png);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    height: 250px;
+    width: 350px;
+    
+}
+.T-img2{
+    background-image: url(../assets/top2.jpg);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    height: 250px;
+    width: 370px;
+}
+.T-img3{
+    background-image: url(../assets/top-fashion.jpeg);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    height: 250px;
+    width: 370px;
+}
+.link{
+   
+    color: orangered;
+}

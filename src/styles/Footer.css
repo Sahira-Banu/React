@@ -1,0 +1,75 @@
+.Footer-Container{
+    background-color:rgba(46, 2, 2, 0.985);
+    display: flex;
+    padding: 100px;
+    color: antiquewhite;
+    flex-wrap: wrap;
+}
+.Left{
+    flex:1;
+    flex-wrap: wrap;
+    
+}
+.Right{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Card{
+    flex: 1;
+
+}
+.Left-Upper{
+    display: flex;
+    flex-direction: column;
+   
+}
+.Left-Upper input{
+    color: antiquewhite;
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+    background-color:rgba(46, 2, 2, 0.985);
+    border: solid;
+    padding-left: 10px;
+    border-width: 1px;
+}
+.Left-Lower{
+    margin-top: 45px;
+}
+.Left-Lower button{
+    color: antiquewhite;
+    background-color:rgba(46, 2, 2, 0.985);
+    padding: 6px;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    
+ }
+ /* .input-outer {
+    display: flex;
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 20px;
+    
+    
+    
+  }
+  
+  .input {
+    color: antiquewhite;
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+    background-color:rgba(46, 2, 2, 0.985);
+    border: solid;
+    padding-left: 10px;
+    border-width: 1px;
+  }
+  
+  #btnicon{
+    border-radius: 50%;
+    padding-right: 10px;
+    
+  }
+   */
